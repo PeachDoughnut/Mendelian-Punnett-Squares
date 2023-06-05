@@ -2,6 +2,7 @@
 Full random assortment of genes (Mendelian) in a Punnett Square. Matrix multiplication w/ extra steps.
 
 Incredibly Simple Mendelian Inheritance in a python script. Made for biology class (as a homework tool). Due to this ad hoc nature, it is specific (ad hoc!), and not incredibly flexible.
+
 ![image](https://raw.githubusercontent.com/PeachDoughnut/Mendelian-Punnett-Squares/main/basic_expected_output.png)
 
 Features:
