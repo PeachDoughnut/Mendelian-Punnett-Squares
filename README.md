@@ -3,6 +3,8 @@ Full random assortment of genes (Mendelian) in a Punnett Square. Matrix multipli
 
 Incredibly Simple Mendelian Inheritance in a python script. Made for biology class (as a homework tool). Due to this ad hoc nature, it is specific (ad hoc!), and not incredibly flexible.
 
+![image](https://raw.githubusercontent.com/PeachDoughnut/Mendelian-Punnett-Squares/main/basic_expected_output.png)
+
 Features:
   1. Matrix multiplication with extra steps - randomly assorts (Mendelian assortion) string-like objects (genes) in a matrix, with particular strings (alleles) always partnered together (exception: see point 5.). E.g.: "R" + "Y" + "y" + "r" = "RrYy" and not "RYyr" (R/r alleles are always part of the "R" gene regardless, in the string output alleles are represented as being written side-by-side. I.e. "R" + "Y" + "y" + "r" = "Rr" + "Yy" == "RrYy"). Unlike numerical multiplication which is commutative and where in that sense: orders simply get lost in matrix multiplication.
   2. Phenotype - compared to the genotype (just all children: e.g. "RRYy"), the phenotype removes duplicates and invokes dominances of particular alleles. Some alleles (like "Y" and "y") are dominant over another (such as "Y" taking priority over "y'"). Combined e.g.: "RRYy" becomes "RY". Another e.g.: "Rryy" becomes "Ry".
@@ -25,7 +27,7 @@ Functions are not small enough, the functions are too big and unwieldy. Classes 
 Examples:
 
 Base - three genes: ABO blood type, Rhesus factor, and fruit fly eye colours (E sub 1 through 4). In this example, also, Rh factor is appended onto the blood type gene, and thus outputs as so.
-![image](https://raw.githubusercontent.com/PeachDoughnut/Mendelian-Punnett-Squares/main/basic_expected_output.png)
+(Pictured in the above image.)
 
 Example 1 - two genes: ABO blood type, and Rhesus factor. It is the base example without the fruit fly eye colour mixed in.
 ![image](https://raw.githubusercontent.com/PeachDoughnut/Mendelian-Punnett-Squares/main/ex1_expected_output.png)
