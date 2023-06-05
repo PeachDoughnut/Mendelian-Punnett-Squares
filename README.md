@@ -1,7 +1,7 @@
 # Mendelian-Punnett-Squares
 Full random assortment of genes (Mendelian) in a Punnett Square. Matrix multiplication w/ extra steps.
 
-Incredibly Simple Mendelian Inheritance in a python script. Made for biology class (as a homework tool). Due to this ad hoc nature, it is specific (ad hoc), and not incredibly flexible.
+Incredibly Simple Mendelian Inheritance in a python script. Made for biology class (as a homework tool). Due to this ad hoc nature, it is specific (ad hoc!), and not incredibly flexible.
 
 Features:
   1. Matrix multiplication with extra steps - randomly assorts (Mendelian assortion) string-like objects (genes) in a matrix, with particular strings (alleles) always partnered together (exception: see point 5.). E.g.: "R" + "Y" + "y" + "r" = "RrYy" and not "RYyr" (R/r alleles are always part of the "R" gene regardless, in the string output it is represented as being written side-by-side. I.e. "R" + "Y" + "y" + "r" = "Rr" + "Yy" == "RrYy"). - Unlike numerical multiplication which is commutative and where in that sense: orders simply get lost in matrix multiplication.
