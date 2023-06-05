@@ -26,8 +26,7 @@ Functions are not small enough, the functions are too big and unwieldy. Classes 
 Examples:
 
 Base - three genes: ABO blood type, Rhesus factor, and fruit fly eye colours (E sub 1 through 4). In this example, also, Rh factor is appended onto the blood type gene, and thus outputs as so.
-
-(Pictured in the above image!)
+(Pictured in the top image.)
 
 Example 1 - two genes: ABO blood type, and Rhesus factor. It is the base example without the fruit fly eye colour mixed in.
 ![image](https://raw.githubusercontent.com/PeachDoughnut/Mendelian-Punnett-Squares/main/ex1_expected_output.png)
