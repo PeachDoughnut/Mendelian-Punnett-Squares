@@ -9,6 +9,7 @@ Features:
   3. Codominance - when dominance value is equal, the phenotype displays both. E.g., if "y"'s dominance == "Y"'s, then "RRYy" becomes "RYr". Typical example is with ABO blood types, e.g.: "AO" + "BB" = "AB" (where "A" and "B" are codominant, "O" is less dominant).
   4. Many alleles - this just means more than two alleles can be present: like A, B, and O. Not just two. (Fundamental part of python's lists.)
   5. String name appension - some genes should be placed together IN OUTPUT (not changing the fact that it is randomly mixed & sorted): e.g. "A" + "^+" + "B" + "^-" = "A^+B^-" and NOT "AB^+^-". If the initial table has corresponding objects in what it is to be appended to (i.e. two children as in "A" and "B", and "^+" and "^-", then it will preserve that order in this name-appension feature. If not, then it will just annex to the end or produce unpredictable behaviour. I believe I tried to support some of this--but it wasn't the main focus and they are really like annexes to this code--producing spaghetti code.)
+  6. Analysis at the end that produces ratios of said genotypes and phenotypes.
 
 Limitations & known issues:
   1. Multiple appensions onto the same gene. E.g. in main script: if a second gene object is appended onto the blood type BESIDES Rh factor (such as another n-factor antigen), then it breaks down.
@@ -18,3 +19,13 @@ Limitations & known issues:
 Future:
 
 This would/should/could be remade in a way more modular, sane system. But, it was made ad hoc, and in a single night (initially) with a second night to bug fix. The last time I edited this was to clean up comments for publication on GitHub. Made for a Grade 12 biology class.
+
+Examples:
+
+Base - three genes: ABO blood type, Rhesus factor, and fruit fly eye colours (E sub 1 through 4). In this example, also, Rh factor is appended onto the blood type gene, and thus outputs as so.
+
+Example 1 - two genes: ABO blood type, and Rhesus factor. It is the base example without the fruit fly eye colour mixed in.
+
+Example 2 - two genes: dog coat colour and the epistatic albinism factor. Epistatic phenotypic effects are another type not represented in the end output ratio and have to be deduced manually from the genotype. I.e.: ALL genotypic outcomes with "aa" shall end up albino.
+
+Example 3 - two genes: pea colour and pea roundness. Basic punnett square of which I was forced to complete tens of - forcing me to make this script.
