@@ -18,18 +18,11 @@ Limitations & known issues:
   2. Appensions onto appensions. E.g.: if you were to append something onto the Rh factor, too, on the main script.
   3. Non-Mendelian sorting - there is no way to make two genes sort together. I.e. Rh factor does not sort with ABO blood type as one object. As they are on separate chromosomes (chrom. 1 and chrom. 9) this is appropriate, anyway.
 
-Future:
-
-This would/should/could be remade in a way more modular, sane system. But, it was made ad hoc, and in a single night (initially) with a second night to bug fix. The last time I edited this was to clean up comments for publication on GitHub. Made for a Grade 12 biology class.
-
-Functions are not small enough, the functions are too big and unwieldy. Classes could be improved majorly: they should cache results, possibly store data in a consistant stucture rather than coverting them to different kinds of tables function-to-function.
-
 Examples:
 
 Base - three genes: ABO blood type, Rhesus factor, and fruit fly eye colours (E sub 1 through 4). In this example, also, Rh factor is appended onto the blood type gene, and thus outputs as so.
 
 (Pictured in the top image.)
-
 
 Example 1 - two genes: ABO blood type, and Rhesus factor. It is the base example without the fruit fly eye colour mixed in.
 ![image](https://raw.githubusercontent.com/PeachDoughnut/Mendelian-Punnett-Squares/main/ex1_expected_output.png)
@@ -39,3 +32,9 @@ Example 2 - two genes: dog coat colour and the epistatic albinism factor. Epista
 
 Example 3 - two genes: pea colour and pea roundness. Basic punnett square of which I was forced to complete tens of - forcing me to make this script.
 ![image](https://raw.githubusercontent.com/PeachDoughnut/Mendelian-Punnett-Squares/main/ex3_expected_output.png)
+
+Future:
+
+This would/should/could be remade in a way more modular, sane system. But, it was made ad hoc, and in a single night (initially) with a second night to bug fix. The last time I edited this was to clean up comments for publication on GitHub. Made for a Grade 12 biology class.
+
+Functions are not small enough, the functions are too big and unwieldy. Classes could be improved majorly: they should cache results, possibly store data in a consistant stucture rather than coverting them to different kinds of tables function-to-function.
