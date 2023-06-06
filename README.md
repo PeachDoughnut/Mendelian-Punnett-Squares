@@ -20,17 +20,17 @@ Limitations & known issues:
 
 Examples:
 
-Base - three genes: ABO blood type, Rhesus factor, and fruit fly eye colours (E sub 1 through 4). In this example, also, Rh factor is appended onto the blood type gene, and thus outputs as so.
+  Base - three genes: ABO blood type, Rhesus factor, and fruit fly eye colours (E sub 1 through 4). In this example, also, Rh factor is appended onto the blood type gene, and thus outputs as so.
 
 (Pictured in the top image.)
 
-Example 1 - two genes: ABO blood type, and Rhesus factor. It is the base example without the fruit fly eye colour mixed in.
+  Example 1 - two genes: ABO blood type, and Rhesus factor. It is the base example without the fruit fly eye colour mixed in.
 ![image](https://raw.githubusercontent.com/PeachDoughnut/Mendelian-Punnett-Squares/main/ex1_expected_output.png)
 
-Example 2 - two genes: dog coat colour and the epistatic albinism factor. Epistatic phenotypic effects are another type not represented in the end phenotypic output ratio and have to be deduced manually from the genotype. I.e.: ALL genotypic outcomes with "aa" shall end up albino.
+  Example 2 - two genes: dog coat colour and the epistatic albinism factor. Epistatic phenotypic effects are another type not represented in the end phenotypic output ratio and have to be deduced manually from the genotype. I.e.: ALL genotypic outcomes with "aa" shall end up albino.
 ![image](https://raw.githubusercontent.com/PeachDoughnut/Mendelian-Punnett-Squares/main/ex2_expected_output.png)
 
-Example 3 - two genes: pea colour and pea roundness. Basic punnett square of which I was forced to complete tens of - forcing me to make this script.
+  Example 3 - two genes: pea colour and pea roundness. Basic punnett square of which I was forced to complete tens of - forcing me to make this script.
 ![image](https://raw.githubusercontent.com/PeachDoughnut/Mendelian-Punnett-Squares/main/ex3_expected_output.png)
 
 Future:
